@@ -1,8 +1,8 @@
 <header class="header">
   <h1>Hello World!</h1>
 </header>
-<ng-container *ngIf="themeArr">
-    <button type="button" class="btn" *ngFor="let theme of themeArr" [value]="theme" (click)="changeTheme(theme)">{{theme}}</button>
+<ng-container *ngIf="array">
+    <button type="button" class="btn" *ngFor="let theme of array" [value]="theme" (click)="changeTheme(theme)">{{theme}}</button>
 </ng-container>
 <section class="all-browsers">
   <h1>Most Popular Browsers</h1>
